@@ -4,5 +4,5 @@ const CounterSchema = mongoose.Schema({
     type: Number
   }
 });
-
+console.log(123);
 module.exports = mongoose.model('counter', CounterSchema);
