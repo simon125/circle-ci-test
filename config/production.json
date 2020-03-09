@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://simon125:simon125@clicker-circleci-ipxxv.mongodb.net/counter123?retryWrites=true"
+}
