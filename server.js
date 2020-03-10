@@ -1,6 +1,7 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const Counter = require('./models/Counter');
+const path = require('path');
 const app = express();
 connectDB();
 
@@ -44,13 +45,13 @@ app.get('/current/minus', async (req, res) => {
   res.json(toFront);
 });
 
-app.use(express.static('test-clicker-mern-circleci/build'));
+app.use(express.static('client/build'));
 
 // It is from tutorial reconsider if we really need this code
 
 // app.get('*', (req, res) =>
 //   res.sendFile(
-//     path.resolve(__dirname, 'test-clicker-mern-circleci', 'build', 'index.html')
+//     path.resolve(__dirname, 'client', 'build', 'index.html')
 //   )
 // );
 
