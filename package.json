@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix test-clicker-mern-circleci && npm run build --prefix test-clicker-mern-circleci"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
