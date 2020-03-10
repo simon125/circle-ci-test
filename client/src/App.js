@@ -29,6 +29,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Dummy text for commit</h1>
         <h1>Another text</h1>
+        <h1>Second text </h1>
         <p>
           This is very dummy app for clicking
           <span role="img" aria-label="icon">
